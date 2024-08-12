@@ -1,0 +1,29 @@
+.container{
+    width: 89%;
+    margin: auto;
+   
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+tr td img{
+    width: 180px;
+    height: 180px;
+    position: relative;
+    margin: 4px 4px;
+    border-radius: 10px;
+    
+}
+ tr td img:hover{
+    border: 1px solid white;
+    z-index: 100;
+    border-radius: 10px;
+    transform: scale(1.1);
+    transition: 250ms ease-in-out;
+    
+
+}
+body{
+    background: #006666;
+}
